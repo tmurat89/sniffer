@@ -1,10 +1,11 @@
 {
   "name": "sniffer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sniffer - web oglasavanje",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --use_strict index.js",
+    "bundle": "webpack"
   },
   "author": "Tomislav Murat",
   "license": "ISC",
